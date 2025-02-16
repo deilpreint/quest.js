@@ -27,7 +27,7 @@ const changeProposal = (arr) => {
         }else {
             newWord += symbol.toLowerCase();
         };
-        position++;
+        position += 1;
     }    
     result.push(newWord);
     }
